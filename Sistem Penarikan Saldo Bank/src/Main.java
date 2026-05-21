@@ -23,7 +23,7 @@ public class Main {
             myAccount.withdraw(amount);
 
             // Jika berhasil, tampilkan saldo terbaru
-            System.out.println("💳 Sisa saldo: Rp " + myAccount.getBalance());
+            System.out.println(" Sisa saldo: Rp " + myAccount.getBalance());
 
         } catch (InsufficientBalanceException e) {
             // Menangkap custom exception
